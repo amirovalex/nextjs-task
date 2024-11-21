@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 const Section6 = () => {
   return (
     <div className="text-textPrimary bg-teal-light pt-7 pb-7 lg:py-40 px-6 sm:px-10 lg:px-20">
@@ -21,30 +22,42 @@ const Section6 = () => {
             <div className="bg-teal-dark col-span-5 p-6 py-12 rounded-lg shadow-lg flex flex-col items-start relative text-start">
               <h3 className="text-xl font-semibold mb-2">Ozempic®</h3>
               <p className="text-sm mb-4">Semaglutide</p>
-              <a className="flex items-start space-x-2">
-                <span className='w-2/3 font-bold'>Take the assessment now</span>
+              <div className="flex items-start space-x-2">
+                <Link href="https://care.medvi.org/intakeform.php?afid=org" className='flex items-center w-2/3 font-bold cursor-pointer'>
+                  <span>Take the assessment now</span>
+                  <img src="/arrow-sm-right-svgrepo-com.svg" alt="Arrow" className="h-4" />
+                </Link>
                 <Image src="/66bcc79f4e174be477153619_pen-ozempic.png" alt="Ozempic" width={30} height={30} className='absolute top-auto right-[10%] bottom-0' />
-              </a>
+              </div>
             </div>
 
             <div className="bg-teal-dark p-6 py-12 col-span-3 rounded-lg shadow-lg flex flex-col items-start relative">
               <h3 className="text-xl font-semibold mb-2">Wegovy®</h3>
               <p className="text-sm mb-4">Semaglutide</p>
-              <a className="flex items-start space-x-2">
-                <span className='w-2/3 font-bold'>Take the assessment now</span>
+              <div className="flex items-start space-x-2">
+              <Link href="https://care.medvi.org/intakeform.php?afid=org" className='flex items-center w-2/3 font-bold cursor-pointer'>
+                  <span>Take the assessment now</span>
+                  <img src="/arrow-sm-right-svgrepo-com.svg" alt="Arrow" className="h-4" />
+                </Link>
                 <Image src="/66bcc79f4e174be47715361d_pen-wegovy.png" alt="Ozempic" width={30} height={30} className='absolute top-auto right-[10%] bottom-0' />
-              </a>
+              </div>
             </div>
 
             <div className="bg-teal-dark p-6 py-12 col-span-5 rounded-lg shadow-lg text-center flex flex-col items-start relative">
               <h3 className="text-xl font-semibold mb-2">Semaglutide</h3>
               <p className="text-sm mb-4 w-2/3 text-left">Pills</p>
+              <Link href="https://care.medvi.org/intakeform.php?afid=org" className='flex items-center w-2/3 font-bold cursor-pointer'>
+                  <img src="/arrow-sm-right-svgrepo-com.svg" alt="Arrow" className="h-4" />
+                </Link>
               <Image src="/medvi-pills.png" alt="Ozempic" width={120} height={120} className='absolute top-auto right-[0%] bottom-0' />
               </div>
 
             <div className="bg-teal-dark p-6 py-12 col-span-3 rounded-lg shadow-lg text-center flex flex-col items-start relative">
               <h3 className="text-xl font-semibold mb-2">Semaglutide</h3>
               <p className="text-sm mb-4 w-2/3 text-left">Injections</p>
+              <Link href="https://care.medvi.org/intakeform.php?afid=org" className='flex items-center w-2/3 font-bold cursor-pointer'>
+                  <img src="/arrow-sm-right-svgrepo-com.svg" alt="Arrow" className="h-4" />
+                </Link>
               <Image src="/medvi-injection.png" alt="Ozempic" width={120} height={120} className='absolute top-auto right-[0%] bottom-0' />
               </div>
           </div>

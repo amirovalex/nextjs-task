@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 const Footer = () => {
   return (
-    <div className=' text-textPrimary py-7 lg:py-10 lg:pb-20 text-center px-6 sm:px-10 lg:px-20'>
+    <div className=' text-textPrimary py-7 lg:py-10 lg:pb-10 text-center px-6 sm:px-10 lg:px-20'>
       <div className='max-w-7xl mx-auto flex flex-col gap-9'>
         <div className="footer-menu flex gap-3 flex-wrap items-center justify-center">
           <Link href="/terms">Terms & Conditions</Link>
@@ -26,12 +26,16 @@ const Footer = () => {
           <p>We are partnered with Belmar Pharmacy to bring the best product and overall experience to our membership. We speak with our pharmacies weekly to discuss any product shortages, shipping delays, and get updated reports on their medication testing. Belmar Pharmacy | Phone: 800-525-9473 | belmarpharmasolutions.com</p>
           </div>
           <div>
-          <p>*Results vary based on starting weight and program adherence. Inches lost from hips, waist, chest, thighs and arms in the first month.These users exercised daily and ate a reduced-calorie diet. Their fat loss is not typical. Results may vary. Medication prescriptions are at the discretion of medical providers and may not be suitable for everyone. MEDVi typically result in 1-2 lbs per week weight loss in 4 weeks, involving a healthy diet and exercise changes. Consult a healthcare professional before using medication or starting any weight loss program.*Based on the average weight loss in three 68-week clinical trials of patients without diabetes who reached and maintained a dose of 2.4 mg/week of GLP-1 treatment, along with a reduced-calorie diet and increased physical activity. <Link href="/privacy" className='font-bold underline'>See details.</Link></p>
+          <p>*Results vary based on starting weight and program adherence. Inches lost from hips, waist, chest, thighs and arms in the first month.These users exercised daily and ate a reduced-calorie diet. Their fat loss is not typical. Results may vary. Medication prescriptions are at the discretion of medical providers and may not be suitable for everyone. MEDVi typically result in 1-2 lbs per week weight loss in 4 weeks, involving a healthy diet and exercise changes. Consult a healthcare professional before using medication or starting any weight loss program.*Based on the average weight loss in three 68-week clinical trials of patients without diabetes who reached and maintained a dose of 2.4 mg/week of GLP-1 treatment, along with a reduced-calorie diet and increased physical activity. <Link href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9486455/?affid=3029&tid=1&sqdid=e128622e-a1b7-437c-bcfd-b87a45fc29ad&aff_sub=395137&c2=25758009" className='font-bold underline'>See details.</Link></p>
           <p>‍Medication is included in the cost of the MEDVi Program. Wegovy® is FDA-approved for weight loss. Ozempic® is FDA-approved for type 2 diabetes treatment but may be prescribed for weight loss. The trademarks, service marks, trade names (Wegovy® ,Ozempic®), and products displayed on this Internet site are protected and belong to their respetive owners. Medical treatment is provided by “CareGLP Affiliated P.C.s,” an affiliated network for medical professional corporations and associations.</p>
         </div>
         <div className='flex justify-center align-center gap-6'>
-          <Image src="/33864012.png" alt="alt" width={150} height={150} className='max-h-sm' />
-          <Image src="/33864012 (1).png" alt="alt" width={150} height={150} className='max-h-sm' />
+          <Link href='https://pmc.ncbi.nlm.nih.gov/articles/PMC9486455/?affid=3029&tid=1&sqdid=e128622e-a1b7-437c-bcfd-b87a45fc29ad&aff_sub=395137&c2=25758009'>
+            <Image src="/33864012.png" alt="alt" width={150} height={150} className='max-h-sm' />
+          </Link>
+          <Link href='https://pmc.ncbi.nlm.nih.gov/articles/PMC9486455/?affid=3029&tid=1&sqdid=e128622e-a1b7-437c-bcfd-b87a45fc29ad&aff_sub=395137&c2=25758009'>
+            <Image src="/33864012 (1).png" alt="alt" width={150} height={150} className='max-h-sm' />
+          </Link>
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Section7 = () => {
   return (
@@ -15,40 +16,40 @@ const Section7 = () => {
     <h2 className="heading text-md sm:text-lg lg:text-xl md:text-left mb-4">
       18% Weight Lost on Average
     </h2>
-    <a className="flex items-center gap-1 text-md sm:text-lg lg:text-xl font-bold md:text-left md:self-start">
+    <Link href="https://care.medvi.org/intakeform.php?afid=org" className="flex items-center gap-1 text-md sm:text-lg lg:text-xl font-bold md:text-left md:self-start">
       <span>Start now</span>
       <img src="/arrow-sm-right-svgrepo-com.svg" alt="Arrow" className="h-4" />
-    </a>
+    </Link>
   </div>
   <div className="box w-full md:w-1/4 rounded-lg bg-teal-dark flex flex-col items-center md:items-start p-6 py-9">
     <img src="/weight-scale-svgrepo-com.svg" alt="medicines icon" className="w-16 h-16 mb-4" />
     <h2 className="heading text-md sm:text-lg lg:text-xl text-left mb-4">
       Doctor-Prescribed GLP-1 Medication
     </h2>
-    <a className="flex items-center gap-1 text-md sm:text-lg lg:text-xl font-bold md:text-left md:self-start">
+    <Link href="https://care.medvi.org/intakeform.php?afid=org" className="flex items-center gap-1 text-md sm:text-lg lg:text-xl font-bold md:text-left md:self-start">
       <span>Start now</span>
       <img src="/arrow-sm-right-svgrepo-com.svg" alt="Arrow" className="h-4" />
-    </a>  
+    </Link>  
     </div>
   <div className="box w-full md:w-1/4 rounded-lg bg-teal-dark flex flex-col items-center md:items-start p-6 py-9">
     <img src="/weight-scale-svgrepo-com.svg" alt="medicine icon" className="w-16 h-16 mb-4" />
     <h2 className="heading text-md sm:text-lg lg:text-xl text-left mb-4">
       Personalized For You
     </h2>
-    <a className="flex items-center gap-1 text-md sm:text-lg lg:text-xl font-bold md:text-left md:self-start">
+    <Link href="https://care.medvi.org/intakeform.php?afid=org" className="flex items-center gap-1 text-md sm:text-lg lg:text-xl font-bold md:text-left md:self-start">
       <span>Start now</span>
       <img src="/arrow-sm-right-svgrepo-com.svg" alt="Arrow" className="h-4" />
-    </a>
+    </Link>
     </div>
   <div className="box w-full md:w-1/4 rounded-lg bg-teal-dark flex flex-col items-center md:items-start p-6 py-9">
     <img src="/weight-scale-svgrepo-com.svg" alt="support icon" className="w-16 h-16 mb-4" />
     <h2 className="heading text-md sm:text-lg lg:text-xl text-left mb-4">
       1:1 Support Whenever You Want
     </h2>
-    <a className="flex items-center gap-1 text-md sm:text-lg lg:text-xl font-bold md:text-left md:self-start">
+    <Link href="https://care.medvi.org/intakeform.php?afid=org" className="flex items-center gap-1 text-md sm:text-lg lg:text-xl font-bold md:text-left md:self-start">
       <span>Start now</span>
       <img src="/arrow-sm-right-svgrepo-com.svg" alt="Arrow" className="h-4" />
-    </a>
+    </Link>
     </div>
 </div>
     </div>

@@ -22,7 +22,7 @@ const Section9 = () => {
         <div className="flex flex-col gap-6">
           <div className="box-dropdown p-6 bg-teal-dark rounded-lg">
             <div
-              className="dropdown-title pb-6 flex items-center justify-between cursor-pointer"
+              className={`dropdown-title ${openIndex.includes(0) ? 'pb-6' : ''} flex items-center justify-between cursor-pointer`}
               onClick={() => toggleDropdown(0)}
             >
               <p className="heading text-lg sm:text-xl lg:text-2xl text-left">
@@ -52,7 +52,7 @@ const Section9 = () => {
           </div>
           <div className="box-dropdown p-6 bg-teal-dark rounded-lg">
             <div
-              className="dropdown-title pb-6 flex items-center justify-between cursor-pointer"
+              className={`dropdown-title ${openIndex.includes(1) ? 'pb-6' : ''} flex items-center justify-between cursor-pointer`}
               onClick={() => toggleDropdown(1)}
             >
               <p className="heading text-lg sm:text-xl lg:text-2xl text-left">
@@ -83,7 +83,7 @@ const Section9 = () => {
           </div>
           <div className="box-dropdown p-6 bg-teal-dark rounded-lg">
             <div
-              className="dropdown-title pb-6 flex items-center justify-between cursor-pointer"
+              className={`dropdown-title ${openIndex.includes(2) ? 'pb-6' : ''} flex items-center justify-between cursor-pointer`}
               onClick={() => toggleDropdown(2)}
             >
               <p className="heading text-lg sm:text-xl lg:text-2xl text-left">
@@ -112,7 +112,7 @@ const Section9 = () => {
           </div>
           <div className="box-dropdown p-6 bg-teal-dark rounded-lg">
             <div
-              className="dropdown-title pb-6 flex items-center justify-between cursor-pointer"
+              className={`dropdown-title ${openIndex.includes(3) ? 'pb-6' : ''} flex items-center justify-between cursor-pointer`}
               onClick={() => toggleDropdown(3)}
             >
               <p className="heading text-lg sm:text-xl lg:text-2xl text-left">

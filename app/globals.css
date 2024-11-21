@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.nav {
+  background-color: #e8fff4;
+}
+
+html, body {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.bg-teal-light {
+  background-color: #e8fff4;
+}
+
+.bg-teal-dark {
+  background-color: #caffe8;
+}
+
+.tealGradient { 
+  background: linear-gradient(-180deg, #e8fff4 0%, rgba(255, 255, 255, 1) 100%)
+}

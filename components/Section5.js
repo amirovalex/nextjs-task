@@ -1,6 +1,5 @@
 import React from 'react'
 import ImageSlider from './ImageSlider'
-import ImageSlider2 from './ImageSlider2'
 const Section5 = () => {
   return (
     <div className='text-textPrimary tealGradient text-center pb-7 lg:pb-40 px-6 sm:px-10 lg:px-20'>
@@ -14,7 +13,6 @@ const Section5 = () => {
         </div>
       </div>
         <ImageSlider />
-        {/* <ImageSlider2 /> */}
     </div>
   )
 }

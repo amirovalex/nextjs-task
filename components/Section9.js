@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Section9 = () => {
   return (
-    <div className='tealGradient text-textPrimary py-7 lg:py-30 lg:pb-40 px-6 sm:px-10 lg:px-20'>
+    <div className='tealGradient text-textPrimary py-7 lg:py-30 lg:pb-30 px-6 sm:px-10 lg:px-20'>
       <div className='max-w-7xl mx-auto'>
         <h2 className="heading pb-8 text-2xl sm:text-4xl lg:text-5xl font-bold text-center">Frequently Asked Questions</h2>
         <div className="flex flex-col gap-6">

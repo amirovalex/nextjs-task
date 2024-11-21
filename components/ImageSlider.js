@@ -2,6 +2,7 @@
 import { useState } from 'react';
 
 const ImageSlider = () => {
+
   const images = [
     '/weight-loss-before-and-after-02.webp',
     '/weight-loss-before-and-after-03.webp',
@@ -10,8 +11,15 @@ const ImageSlider = () => {
     '/weight-loss-before-and-after-03.webp',
     '/weight-loss-before-and-after-06.webp',
   ];
-
+  
   const imagesPerRow = 3; 
+  const rows = images.reduce((rows, image, index) => {
+    const rowIndex = Math.floor(index / imagesPerRow);
+    if (!rows[rowIndex]) rows[rowIndex] = []; 
+    rows[rowIndex].push(image);
+    return rows;
+  }, [])
+
   const totalRows = Math.ceil(images.length / imagesPerRow); 
   const [currentRow, setCurrentRow] = useState(0);
 
@@ -33,14 +41,7 @@ const ImageSlider = () => {
             width: '100%', 
           }}
         >
-          {images
-          .reduce((rows, image, index) => {
-            const rowIndex = Math.floor(index / imagesPerRow);
-            if (!rows[rowIndex]) rows[rowIndex] = []; 
-            rows[rowIndex].push(image);
-            return rows;
-          }, [])
-          .map((row, rowIndex) => (
+          {rows.map((row, rowIndex) => (
             <div
               key={rowIndex}
               className="grid grid-cols-3 gap-4 flex-shrink-0 w-full"

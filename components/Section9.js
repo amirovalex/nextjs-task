@@ -26,7 +26,7 @@ const Section9 = () => {
           </div>
           <div className="box-dropdown p-6 bg-teal-dark rounded-lg">
             <div className="dropdown-title pb-6 flex items-center justify-between">
-              <p className='heading text-lg sm:text-xl lg:text-2xl text-left'>What if my insurance doesn’t cover the medication?</p>
+              <p className='heading text-lg sm:text-xl lg:text-2xl text-left'>What if my insurance doesn&apos;t cover the medication?</p>
               <Image src="/arrow-down.svg" alt="alt" width={30} height={30} className='max-h-sm' />
             </div>
             <div className="dropdown-inner">

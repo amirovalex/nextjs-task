@@ -13,7 +13,7 @@ const Section6 = () => {
               Wegovy and Ozempic contain semaglutide (a GLP-1) that may be
               prescribed for weight loss if appropriate. It’s a once-weekly shot
               (or daily pill) that works by mimicking your body’s natural hormones,
-              tricking your body into thinking you've already eaten!
+              tricking your body into thinking you&apos;ve already eaten!
             </p>
           </div>
 
@@ -65,8 +65,8 @@ const Section6 = () => {
             </h2>
             <p className="text-lg lg:text-xl leading-relaxed font-light">
               With MEDVi, you will not just get prescribed weight loss medication
-              and left on your own. Your success is our success. We're with you
-              on every step of your journey and you'll be guided by board-certified
+              and left on your own. Your success is our success. We&apos;re with you
+              on every step of your journey and you&apos;ll be guided by board-certified
               doctor support to guarantee you reach your weight loss goals.
             </p>
           </div>

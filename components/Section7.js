@@ -6,8 +6,8 @@ const Section7 = () => {
 
     <div className='max-w-7xl mx-auto'>
       <div className='flex flex-col items-center'>
-        <h2 className="heading pb-8 text-2xl sm:text-4xl lg:text-5xl font-bold max-w-2xl text-center">Let's fix your broken metabolism</h2>
-        <p className='text-md sm:text-lg lg:text-xl text-center'>Traditional diets don’t work because nearly 70% of weight is genetically determined. With medication, you will work with your body rather than against it - to reach your goal weight and keep it that way.</p>
+        <h2 className="heading pb-8 text-2xl sm:text-4xl lg:text-5xl font-bold max-w-2xl text-center">Let&apos;s fix your broken metabolism</h2>
+        <p className='text-md sm:text-lg lg:text-xl text-center'>Traditional diets don&apos;t work because nearly 70% of weight is genetically determined. With medication, you will work with your body rather than against it - to reach your goal weight and keep it that way.</p>
       </div>
       <div className="box-wrapper flex flex-col md:flex-row gap-6 py-12 md:items-stretch">
   <div className="box w-full md:w-1/4 rounded-lg bg-teal-dark flex flex-col items-center md:items-start p-6 py-9">

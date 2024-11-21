@@ -12,7 +12,7 @@ const CaliforniaPrivacy = () => {
 
 <h1>Privacy Statement - California</h1>
 
-<p>This PRIVACY NOTICE IS APPLICABLE TO CALIFORNIA RESIDENTS (“consumers” or “you”) ONLY and supplements the information in MEDVi’s general Privacy Statement. We adopt this notice to comply with the California Consumer Privacy Act of 2018 (“CCPA”), the California Privacy Rights Act ("CPRA"), and other California privacy laws. Any terms defined in the CCPA or CRPA have the same meaning when used in this notice.</p>
+<p>This PRIVACY NOTICE IS APPLICABLE TO CALIFORNIA RESIDENTS (“consumers” or “you”) ONLY and supplements the information in MEDVi’s general Privacy Statement. We adopt this notice to comply with the California Consumer Privacy Act of 2018 (“CCPA”), the California Privacy Rights Act (&quot;CPRA&quot;), and other California privacy laws. Any terms defined in the CCPA or CRPA have the same meaning when used in this notice.</p>
 
 <h2>Information We Collect</h2>
 <p>We collect information that identifies, relates to, describes, references, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or device (“Personal Information”).</p>
@@ -24,7 +24,7 @@ const CaliforniaPrivacy = () => {
 <p>Collected: Yes</p>
 
 <h3>Category B. Personal information categories listed in the California Customer Records statute (Cal. Civ. Code § 1798.80(e)).</h3>
-<p>Examples: A name, signature, Social Security number, physical characteristics or description, address, telephone number, passport number, driver's license or state identification card number, insurance policy number, education, employment, employment history, bank account number, credit card number, debit card number, or any other financial information, medical information, or health insurance information. Some personal information included in this category may overlap with other categories.</p>
+<p>Examples: A name, signature, Social Security number, physical characteristics or description, address, telephone number, passport number, driver&apos;s license or state identification card number, insurance policy number, education, employment, employment history, bank account number, credit card number, debit card number, or any other financial information, medical information, or health insurance information. Some personal information included in this category may overlap with other categories.</p>
 <p>Collected: Yes</p>
 
 <h3>Category C. Characteristics of protected classifications under California or federal law.</h3>
@@ -75,10 +75,10 @@ const CaliforniaPrivacy = () => {
 <ul>
     <li>Information that is lawfully made available from federal, state, or local government records (“Publicly Available Information”).</li>
     <li>De-identified or aggregate consumer information (as such terms are defined in the CCPA).</li>
-    <li>Information excluded from the CCPA's scope, such as:
+    <li>Information excluded from the CCPA&apos;s scope, such as:
         <ul>
             <li>health or medical information covered by the Health Insurance Portability and Accountability Act of 1996 (HIPAA) and the California Confidentiality of Medical Information Act (CMIA) or clinical trial data.</li>
-            <li>personal information covered by certain sector-specific privacy laws, including the Fair Credit Reporting Act (FRCA), the Gramm-Leach-Bliley Act (GLBA) or California Financial Information Privacy Act (FIPA), and the Driver's Privacy Protection Act of 1994.</li>
+            <li>personal information covered by certain sector-specific privacy laws, including the Fair Credit Reporting Act (FRCA), the Gramm-Leach-Bliley Act (GLBA) or California Financial Information Privacy Act (FIPA), and the Driver&apos;s Privacy Protection Act of 1994.</li>
         </ul>
     </li>
 </ul>
@@ -172,7 +172,7 @@ const CaliforniaPrivacy = () => {
     <li>Debug products to identify and repair errors that impair existing intended functionality.</li>
     <li>Exercise free speech, ensure the right of another consumer to exercise their free speech rights, or exercise another right provided for by law.</li>
     <li>Comply with the California Electronic Communications Privacy Act (Cal. Penal Code § 1546 seq.).</li>
-    <li>Engage in public or peer-reviewed scientific, historical, or statistical research in the public interest that adheres to all other applicable ethics and privacy laws, when the information's deletion may likely render impossible or seriously impair the research's achievement, if you previously provided informed consent.</li>
+    <li>Engage in public or peer-reviewed scientific, historical, or statistical research in the public interest that adheres to all other applicable ethics and privacy laws, when the information&apos;s deletion may likely render impossible or seriously impair the research&apos;s achievement, if you previously provided informed consent.</li>
     <li>Enable solely internal uses that are reasonably aligned with consumer expectations based on your relationship with us.</li>
     <li>Comply with a legal obligation.</li>
     <li>Make other internal and lawful uses of that information that are compatible with the context in which you provided it.</li>
@@ -194,10 +194,10 @@ const CaliforniaPrivacy = () => {
     <li>Describe your request with sufficient detail that allows us to properly understand, evaluate, and respond to it.</li>
 </ul>
 
-<p>We cannot respond to your request or provide you with Personal Information if we cannot verify your identity or authority to make the request and confirm the personal information relates to you. Making a verifiable consumer request does not require you to create an account with us. Personal Information provided will only be used by us to verify the requestor's identity and/or authority to make the request.</p>
+<p>We cannot respond to your request or provide you with Personal Information if we cannot verify your identity or authority to make the request and confirm the personal information relates to you. Making a verifiable consumer request does not require you to create an account with us. Personal Information provided will only be used by us to verify the requestor&apos;s identity and/or authority to make the request.</p>
 
 <h2>Response Timing and Format</h2>
-<p>We endeavor to respond to a verifiable consumer request within 45 days of its receipt. If we require more time (up to 90 days), we will inform you of the reason and extension period in writing. If you have an account with us, we will deliver our written response to that account. If you do not have an account with us, we will deliver our written response by mail or electronically, at your option. Any disclosures we provide will only cover the 12-month period preceding the verifiable consumer request's receipt. The response we provide will also explain the reasons we cannot comply with a request, if applicable. For data portability requests, we will select a format to provide your personal information that is readily usable and should allow you to transmit the information from one entity to another entity without hindrance.</p>
+<p>We endeavor to respond to a verifiable consumer request within 45 days of its receipt. If we require more time (up to 90 days), we will inform you of the reason and extension period in writing. If you have an account with us, we will deliver our written response to that account. If you do not have an account with us, we will deliver our written response by mail or electronically, at your option. Any disclosures we provide will only cover the 12-month period preceding the verifiable consumer request&apos;s receipt. The response we provide will also explain the reasons we cannot comply with a request, if applicable. For data portability requests, we will select a format to provide your personal information that is readily usable and should allow you to transmit the information from one entity to another entity without hindrance.</p>
 
 <p>We do not charge a fee to process or respond to your verifiable consumer request unless it is excessive, repetitive, or manifestly unfounded. If we determine that the request warrants a fee, we will provide you with a cost estimate and rationale before completing your request. We also reserve the right to deny excessive, repetitive, or manifestly unfounded requests.</p>
 

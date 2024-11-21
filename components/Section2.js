@@ -6,7 +6,7 @@ const Section2 = () => {
     <div className='text-textPrimary bg-teal-light text-center py-7 lg:py-36 px-6 sm:px-10 lg:px-20'>
       <div className='max-w-7xl mx-auto'>
        <div>
-        <p className="title text-sm sm:text-md lg:text-lg uppercase pb-6">It's not magic, it's metabolic science.</p>
+        <p className="title text-sm sm:text-md lg:text-lg uppercase pb-6">It&apos;s not magic, it&apos;s metabolic science.</p>
         <h2 className="heading pb-8 text-2xl sm:text-4xl lg:text-5xl font-bold">LOSE UP TO 20% OF YOUR BODY WEIGHT IN 3 EASY STEPS</h2>
         </div>
         <div className="box-wrapper flex flex-col md:flex-row gap-6 py-12 sm:items-center">

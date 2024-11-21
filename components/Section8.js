@@ -10,7 +10,7 @@ const Section8 = () => {
         <div className='flex flex-col items-center pb-12'>
           <img src="/award-svgrepo-com-2.svg" alt="alt" width={100} height={100} className='max-h-sm' />
           <h2 className='heading pb-8 text-2xl sm:text-4xl lg:text-5xl font-bold max-w-2xl text-center'>GET RESULTS OR YOUR MONEY BACK</h2>
-          <p className='text-md sm:text-lg lg:text-xl'>We’re so confident in our program, we guarantee you’ll lose weight - or your money back.</p>
+          <p className='text-md sm:text-lg lg:text-xl'>We&apos;re so confident in our program, we guarantee you&apos;ll lose weight - or your money back.</p>
         </div>
       </div>
       <div className='flex flex-col gap-3 md:grid md:grid-cols-5 md:grid-rows-1 gap-4'>
@@ -26,7 +26,7 @@ const Section8 = () => {
           <h3 className="subtitle bg-teal-light p-3 rounded-t-xl text-center text-xl font-bold">Get Started For Just $149</h3>
           <div className="card-inner flex flex-col gap-3 rounded-b-xl bg-stone-100 p-6 pb-6 h-full">
           <h2 className="title text-center text-2xl pb-3 font-bold">The most effective weight loss program <em>is yours</em></h2>
-          <p className='pb-6 text-xl'>What's included?</p>
+          <p className='pb-6 text-xl'>What&apos;s included?</p>
           <div className="flex flex-col gap-3 lg:gap-6 h-full justify-evenly">
           <div className="flex items-center gap-4">
             <div className="w-9 h-9 flex-shrink-0 relative">

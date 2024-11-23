@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nextjs-task-lh23zpw6e-amirovalexs-projects.vercel.app/sitemap.xml

@@ -29,5 +29,6 @@ html, body {
 }
 
 .tealGradient { 
-  background: linear-gradient(-180deg, #e8fff4 0%, rgba(255, 255, 255, 1) 100%)
+  background: linear-gradient(-180deg, #e8fff4 0%, rgba(255, 255, 255, 1) 100%);
 }
+

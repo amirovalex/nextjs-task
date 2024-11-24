@@ -1,9 +1,12 @@
 import React from 'react'
 import "./pagecss.css";
-
+import Head from 'next/head';
 const TermsPage = () => {
   return (
     <div>
+      <Head>
+        <title>MEDVi Terms and Conditions</title>
+      </Head>
       <div className="logo">
         <img src="/medvi-logo.png" alt="alt" width="140px" className='p-20' />
       </div>

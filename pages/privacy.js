@@ -1,9 +1,12 @@
 import React from 'react'
 import "./pagecss.css";
-
+import Head from 'next/head';
 const PrivacyPage = () => {
   return (
     <div>
+        <Head>
+        <title>MEDVi - Privacy Policy</title>
+      </Head>
       <div className="logo">
         <img src="/medvi-logo.png" alt="alt" width="140px" className='p-20' />
       </div>

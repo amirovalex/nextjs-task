@@ -11,6 +11,10 @@ import Section8 from "@/components/Section8.js";
 import Section9 from "@/components/Section9.js";
 import Image from "next/image";
 
+export const metadata = {
+  title: 'MEDVi - Personalized Weight Loss Solutions',
+}
+ 
 export default function Home() {
   return (
     <div>
